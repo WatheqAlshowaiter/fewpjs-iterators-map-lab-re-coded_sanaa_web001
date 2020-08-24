@@ -14,7 +14,8 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map((t) => {
-    capitalize_Words(t);
+    // capitalize_Words(t);
+    return capitalize_Words(t);
   });
 };
 function capitalize_Words(str) {
